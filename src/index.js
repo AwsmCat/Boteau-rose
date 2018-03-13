@@ -6,9 +6,9 @@ client.on("ready", () => {
 });
 
 client.on("message", (message) => {
-  if (message.content.startsWith("ping")) {
-    message.channel.send("pong!");
+  if (message.content.startsWith("patate")) {
+    message.channel.send("Ta gueule !");
   }
 });
 
-client.login("SuperSecretBotTokenHere");
+client.login("NDIzMjI5MDExMzgxMDU5NjA0.DYnTeA.HuHGlyz4X_ti2i7oPDPaP4SYzAY");
